@@ -1,0 +1,46 @@
+function start(){
+ var year = readInt("What year were you born? ");
+ if(year >= 1997 && year <= 2019) {
+     println("You are a part of: Generation Z");
+ }
+ if(year >= 1981 && year <= 1996){
+     println("You are part of: Millenials");
+ }
+ if(year >= 1965 && year <= 1980){
+     println("You are part of: Generation X");
+ }
+ if(year >= 1946 && year <= 1964){
+     println("You are part of: Boomers");
+     println("Ok Boomer");
+ }
+ if(year >= 1928 && year <= 1945){
+     println("You are part of: Silent");
+ }
+ if(year >= 2019 || year <= 1927){
+     println("Invalid Entry, please try again.");
+     println("Make sure your entry is 4 numbers ranging between the year 1928 to 2019.");
+ }
+ var year2 = readInt("Would you like to try another year? ");
+ if(year2 >= 1997 && year <= 2019) {
+     println("You are a part of: Generation Z");
+ }
+ if(year2 >= 1981 && year2 <= 1996){
+     println("You are part of: Millenials");
+ }
+ if(year2 >= 1965 && year2 <= 1980){
+     println("You are part of: Generation X");
+ }
+ if(year2 >= 1946 && year2 <= 1964){
+     println("You are part of: Boomers");
+     println("Ok Boomer");
+ }
+ if(year2 >= 1928 && year2 <= 1945){
+     println("You are part of: Silent");
+ }
+ if(year2 >= 2019 || year2 <= 1927){
+     println("Invalid Entry, please try again.");
+     println("Make sure your entry is 4 numbers ranging between the year 1928 to 2019.");
+     var year2 = readInt("Would you like to try another year? ");
+ }
+ 
+}
